@@ -21,7 +21,7 @@ header {
 
 /*Write a CSS rule to style the nav tag to modify the background color property.*/
 nav {
-    background-color: #b1aea5;
+    background-color: #cdc8b6;
     padding-bottom: 25px;
     width: 90%;
     margin: auto;
@@ -40,7 +40,7 @@ nav img {
 
 /*Write a CSS rule to style the main tag to modify the background color and font size property*/
 main {
-    background-color: #b2b29fff;
+    background-color: #cdc8b6;
 }
 
 /*rite a CSS rule to style the footer tag to modify the background color property*/
@@ -74,7 +74,7 @@ a {
 
 /**/
 #main_content {
-    background-color: #b2b29fff;
+    background-color: #cdc8b6;
 }
 
 /*Added a grid-container class to the <div> element and styled it so that it is a two column grid where each column is approximately 40%.*/
