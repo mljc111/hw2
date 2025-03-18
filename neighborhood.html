@@ -6,23 +6,27 @@
   <meta name="viewport" content="width=device-width">
   <title>Neighborhood Walk</title>
   <!-- You will need to link to the CSS file -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
+  <!--Add a working "Skip to Main Content" link to each page by adding an id to the main tag and then adding an anchor (a tag) earlier in the file that will link to it.-->
+
+  <a href="#main_content">Skip to Main Content</a>
   <header>
     <nav>
-      <ul>
+      <!--add Flex class-->
+      <ul class="flex">
         <li><a href="index.html">Home</a></li>
-        <li><a href="neighborhood.html">Neighborhood Walks</a></li>
+        <li><a id="current" href="neighborhood.html">Neighborhood Walks</a></li>
         <li><a href="parks.html">Walks in the Park</a></li>
       </ul>
+      <img src="images/BaconGallupPark.jpg" width="200" alt="Brown Labradoodle sitting next to a statue.">
     </nav>
-    <img src="images/BaconGallupPark.jpg" width="200" alt="Brown Labradoodle sitting next to a statue.">
     <h1>Neighborhood Walks</h1>
   </header>
-  <main>
-    <div>
+  <main class="main_content">
+    <div class="grid-container">
       <img src="images/bend_in_the_road.png"
         alt="a purple tree stands in contrast to the green leaved trees along a bend in the road" width="100">
       <img src="images/pink_blossoms.png" alt="small pink blossoms on an otherwise green leaved tree" width="100">
@@ -45,7 +49,5 @@
         href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
       Students are invited to make changes.</p>
   </footer>
-
 </body>
-
 </html>
