@@ -51,6 +51,7 @@ footer {
 
 /*Write a CSS rule to style the li tag to modify the display and width properties.  */
 li {
+    font-size: 120%;
     /* display: inline;
     width: 100px;
     padding-right: 5px;*/
